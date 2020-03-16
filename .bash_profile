@@ -17,7 +17,7 @@ export PAGER="most"
 # Add MySQL to PATH
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 # Add Pentaho to PATH
-export PATH=$PATH:/Applications/data-integration  # <== DOUBLE-CHECK THIS PATH!
+export PATH=$PATH:/Applications/data-integration
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
