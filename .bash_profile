@@ -1,6 +1,9 @@
 # PostgreSQL
 #export PGVERSION=$(postgres --version | awk '{print $3}')
 
+# bash history with timestamp
+export HISTTIMEFORMAT="%F %T "
+
 # less custom configuration
 export LESS="--clear-screen --ignore-case --status-column --long-prompt --quiet"
 
