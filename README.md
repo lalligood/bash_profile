@@ -1,4 +1,4 @@
-# Bash Essentials for LInux & Mac OSX
+# Bash Essentials for Linux & Mac OSX
 
 This ensures that a simple baseline for bash configuration goes wherever I go.
 
