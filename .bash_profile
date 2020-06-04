@@ -1,8 +1,12 @@
 # PostgreSQL
 #export PGVERSION=$(postgres --version | awk '{print $3}')
 
-# bash history with timestamp
+# bash history settings
+HISTCONTROL=ignoreboth
+shopt -s histappend
 export HISTTIMEFORMAT="%F %T "
+HISTFILESIZE=5000
+HISTSIZE=2500
 
 # less custom configuration
 export LESS="--clear-screen --ignore-case --status-column --long-prompt --quiet"
