@@ -8,3 +8,5 @@ alias pip='pip3'
 alias py='python3'
 alias python='python3'
 alias rm='rm -v'
+alias lazydocker='cd $HOME/Projects; lazydocker; cd -'
+
