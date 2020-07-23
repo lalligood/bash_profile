@@ -18,8 +18,6 @@ export PAGER="most"
 export PATH=$PATH:/Applications/data-integration
 # Add MySQL to PATH
 export PATH="$PATH:/usr/local/opt/mysql@5.7/bin"
-# Add python@3.8 (installed by brew) to PATH
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 
 # Powerline Config
 pyver=$(python3 --version | awk -F'.' '{print $2}')
