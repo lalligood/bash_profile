@@ -25,9 +25,12 @@ export PATH="$PATH:$HOME/Library/Python/3.${pyver}/bin"
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
-#source $HOME/Library/Python/3.${pyver}/lib/python/site-packages/powerline/bindings/bash/powerline.sh
 source /usr/local/lib/python3.${pyver}/site-packages/powerline/bindings/bash/powerline.sh
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+# Supercharge <ctrl>-r with fzf (requires `brew install fzf`)
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
