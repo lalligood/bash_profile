@@ -130,3 +130,7 @@ powerline-daemon -q
 # Supercharge <ctrl>-r with fzf (requires `apt install fzf`)
 source /usr/share/doc/fzf/examples/key-bindings.bash
 
+# Starship shell
+eval "$(starship init bash)"
+export STARSHIP_CONFIG=~/.config/starship.toml
+
